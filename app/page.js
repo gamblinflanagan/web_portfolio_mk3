@@ -2,11 +2,11 @@
 
 import { useRef } from 'react';
 
-import Nav from '../components/nav';
-import Main from '../components/main-section';
-import Skills from '../components/skills-section';
-import Portfolio from '../components/portfolio-section';
-import Contact from '../components/contact-section';
+import Nav from '@/components/nav';
+import Main from '@/components/main-section';
+import Skills from '@/components/skills-section';
+import Portfolio from '@/components/portfolio-section';
+import Contact from '@/components/contact-section';
 
 export default function Home() {
 
