@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
 // import { useInView } from '@/hooks/useInView';
