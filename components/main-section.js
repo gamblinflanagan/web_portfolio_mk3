@@ -28,7 +28,7 @@ const Main = (props) => {
 
     return (
     <>
-         <main className="relative pt-16">
+      <section className="relative pt-16">
         {/* Spline Background */}
         <div className="absolute inset-0 z-0">
           <Spline scene="https://prod.spline.design/AIpWj8c6fgxFEqe2/scene.splinecode" />
@@ -87,7 +87,7 @@ const Main = (props) => {
             </div>
           </div>
         </div>
-      </main>
+      </section>
     </>)
     ;
 };

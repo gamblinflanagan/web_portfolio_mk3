@@ -28,12 +28,12 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0F19] text-white relative overflow-hidden">
+    <main className="min-h-screen bg-[#0B0F19] text-white relative overflow-hidden">
       <Nav ClickHandler={handleClick}/>
       <Main ClickHandler={handleClick}/>
       <Skills ref={skillsRef}/>
       <Portfolio ref={portfolioRef}/>
       <Contact ref={contactRef}/>
-    </div>
+    </main>
   );
 }
