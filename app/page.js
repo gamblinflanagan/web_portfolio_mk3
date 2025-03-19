@@ -10,8 +10,8 @@ import dynamic from 'next/dynamic';
 //   }
 // );
 
-const Main = dynamic(
-  () => import('@/components/main-section'),
+const Top = dynamic(
+  () => import('@/components/top-section'),
   {
     ssr: false,
   }
@@ -39,7 +39,7 @@ const Main = dynamic(
 // );
 
 import Nav from '@/components/nav';
-// import Main from '@/components/main-section';
+// import Top from '@/components/top-section';
 import Skills from '@/components/skills-section';
 import Portfolio from '@/components/portfolio-section';
 import Contact from '@/components/contact-section';
@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#0B0F19] text-white relative overflow-hidden">
       <Nav ClickHandler={handleClick}/>
-      <Main ClickHandler={handleClick}/>
+      <Top ClickHandler={handleClick}/>
       <Skills ref={skillsRef}/>
       <Portfolio ref={portfolioRef}/>
       <Contact ref={contactRef}/>

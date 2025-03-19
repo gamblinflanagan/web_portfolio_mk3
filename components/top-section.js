@@ -6,7 +6,7 @@ import Spline from '@splinetool/react-spline';
 import aiProfile from '../assets/aiProfile.jpg';
 
 
-const Main = (props) => {
+const Top = (props) => {
 
     const typedRef = useRef(null);
 
@@ -92,4 +92,4 @@ const Main = (props) => {
     ;
 };
 
-export default Main;
+export default Top;
