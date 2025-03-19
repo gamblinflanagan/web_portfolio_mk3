@@ -81,6 +81,7 @@ const Contact = forwardRef((props, ref) => {
               <div>
                 <h3 className="text-xl font-semibold mb-4">CONTACT</h3>
                 <a
+                  target='_blank'
                   href="mailto:joeyflanagan97@gmail.com"
                   className="flex items-center space-x-2 text-gray-300 hover:text-[#33CCFF] transition-colors"
                 >
@@ -88,6 +89,7 @@ const Contact = forwardRef((props, ref) => {
                   <span>joeyflanagan97@gmail.com</span>
                 </a>
                 <a
+                  target='_blank'
                   href="tel:+19735702383"
                   className="flex items-center space-x-2 text-gray-300 hover:text-[#33CCFF] transition-colors"
                 >
@@ -95,6 +97,7 @@ const Contact = forwardRef((props, ref) => {
                   <span>(973) 570-2383</span>
                 </a>
                 <a
+                  target='_blank'
                   href="tel:+18629552657"
                   className="flex items-center space-x-2 text-gray-300 hover:text-[#33CCFF] transition-colors"
                 >
