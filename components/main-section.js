@@ -54,10 +54,10 @@ const Main = () => {
 
               <div>
                 <h1 className="text-6xl sm:text-7xl font-bold mb-6">
-                  <span ref={typedRef} className="bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-transparent bg-clip-text"></span>
+                  <span ref={typedRef} className="bg-gradient-to-r from-[#9933FF] to-[#FF3366] text-transparent bg-clip-text"></span>
                 </h1>
                 <p className="text-xl mb-8 text-gray-300">
-                  I am John Shephard – <span className="text-[#33CCFF]">web developer</span> with a passion for creating beautiful and responsive websites.
+                  I am Joey Flanagan – <span className="text-[#33CCFF]">Front-End Software Engineer,</span> with a passion & deep commitment for building scalable, efficient, and user-centric applications. 
                 </p>
                 <div className="flex justify-center lg:justify-start">
                   <button className="relative group">

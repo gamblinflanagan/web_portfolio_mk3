@@ -47,11 +47,11 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-[#FF3366] to-[#33CCFF] text-transparent bg-clip-text">
-              DO YOU HAVE A PROJECT TO DISCUSS?
+              DO YOU HAVE A PROJECT OR OPPOURTUNITY TO DISCUSS?
             </h2>
             <div className="flex items-center justify-center space-x-2">
               <MessageSquare className="w-6 h-6 text-[#33CCFF]" />
-              <span className="text-2xl font-bold">GET IN TOUCH</span>
+              <span className="text-2xl font-bold"> LET'S GET IN TOUCH</span>
             </div>
           </div>
 
@@ -62,21 +62,21 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-4">CONTACT</h3>
                 <a
                   href="mailto:joeyflanagan97@gmail.com"
-                  className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
+                  className="flex items-center space-x-2 text-gray-300 hover:text-[#33CCFF] transition-colors"
                 >
                   <Mail className="w-5 h-5" />
                   <span>joeyflanagan97@gmail.com</span>
                 </a>
                 <a
                   href="tel:+19735702383"
-                  className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
+                  className="flex items-center space-x-2 text-gray-300 hover:text-[#33CCFF] transition-colors"
                 >
                   <Phone className="w-5 h-5" />
                   <span>(973) 570-2383</span>
                 </a>
                 <a
                   href="tel:+18629552657"
-                  className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
+                  className="flex items-center space-x-2 text-gray-300 hover:text-[#33CCFF] transition-colors"
                 >
                   <Phone className="w-5 h-5" />
                   <span>(862) 955-2657</span>
