@@ -29,7 +29,7 @@ const Skills = forwardRef((props, ref) => {
        <section className="py-20 relative" ref={ref}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={skillsRef}>
           {/* Section Title */}
-          <div className='grid grid-cols-1 lg:grid-cols-6 gap-4 items-center w-full'>
+          <div className='grid grid-cols-1 lg:grid-cols-6 gap-4 items-center w-full max-sm:place-items-center'>
             <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text sm:col-start-1 sm:col-end-3">
                 SKILLS
             </h2>

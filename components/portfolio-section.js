@@ -115,9 +115,11 @@ const Portfolio = forwardRef((props, ref) => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           {/* Section Title */}
-          <h2 className="text-5xl font-bold mb-16 bg-gradient-to-r from-[#FF3366] to-[#33CCFF] text-transparent bg-clip-text">
-            PORTFOLIO
-          </h2>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full max-sm:place-items-center'>
+            <h2 className="text-5xl font-bold mb-16 bg-gradient-to-r from-[#FF3366] to-[#33CCFF] text-transparent bg-clip-text">
+                PORTFOLIO
+            </h2>
+          </div>
 
           {/* Portfolio Grid */}
           <div className='h-[48rem] overflow-y-scroll '>
