@@ -1,10 +1,10 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import { ExternalLink } from 'lucide-react';
 // import { useInView } from '@/hooks/useInView';
 import { useInView } from '../hooks/useInView';
 
 
-const Portfolio = () => {
+const Portfolio = forwardRef((props, ref) => {
 
     const [portfolioRef, isPortfolioInView] = useInView();
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
     <>
       <section className="py-20 relative" ref={portfolioRef}>
         {/* Abstract Geometric Pattern Background */}
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-5" ref={ref}>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_#FF3366_0%,_transparent_50%)] opacity-20"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,_#33CCFF_0%,_transparent_50%)] opacity-20"></div>
         </div>
@@ -106,6 +106,6 @@ const Portfolio = () => {
       </section>
     </>)
     ;
-};
+});
 
 export default Portfolio;

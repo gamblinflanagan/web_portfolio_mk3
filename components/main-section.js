@@ -6,7 +6,7 @@ import Spline from '@splinetool/react-spline';
 import aiProfile from '../assets/aiProfile.jpg';
 
 
-const Main = () => {
+const Main = (props) => {
 
     const typedRef = useRef(null);
 
@@ -63,7 +63,7 @@ const Main = () => {
                   <button className="relative group">
                     <div className="absolute -inset-0.5 bg-gradient-to-r from-[#33CCFF] to-[#FF3366] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                     <div className="relative px-7 py-4 bg-[#0B0F19] rounded-lg leading-none">
-                      <span className="bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text font-semibold">
+                      <span className="bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text font-semibold" onClick={() => props.ClickHandler('portfolio')}>
                         VIEW MY WORK
                       </span>
                     </div>

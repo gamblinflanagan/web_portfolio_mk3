@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, forwardRef } from 'react';
 import {  MessageSquare, Mail, Phone, Linkedin, Github, Send } from 'lucide-react';
 
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
 
     const [formData, setFormData] = useState({
         name: '',
@@ -37,7 +37,7 @@ const Contact = () => {
 
     return (
     <>
-        <section className="py-20 relative" id="contact">
+        <section className="py-20 relative" id="contact" ref={ref}>
         {/* Background Effects */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,_#FF3366_0%,_transparent_50%)] opacity-20"></div>
@@ -153,6 +153,6 @@ const Contact = () => {
       </section>
     </>)
     ;
-};
+});
 
 export default Contact;

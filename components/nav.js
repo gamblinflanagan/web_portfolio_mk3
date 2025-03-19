@@ -1,10 +1,11 @@
-import { useState, } from 'react';
+import { useState } from 'react';
 import { Globe, Menu } from 'lucide-react';
 
 
-const Nav = () => {
+const Nav = (props) => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
     return (
     <>
@@ -17,9 +18,9 @@ const Nav = () => {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-300 hover:text-[#33CCFF] transition-colors">Skills</a>
-              <a href="#" className="text-gray-300 hover:text-[#33CCFF] transition-colors">Portfolio</a>
-              <a href="#" className="text-gray-300 hover:text-[#33CCFF] transition-colors">Contact</a>
+              <p onClick={() => props.ClickHandler('skills')} className="text-gray-300 hover:text-[#33CCFF] transition-colors cursor-pointer">Skills</p>
+              <p onClick={() => props.ClickHandler('portfolio')} className="text-gray-300 hover:text-[#33CCFF] transition-colors cursor-pointer">Portfolio</p>
+              <p onClick={() => props.ClickHandler('contact')} className="text-gray-300 hover:text-[#33CCFF] transition-colors cursor-pointer">Contact</p>
             </div>
 
             {/* Mobile Menu Button */}

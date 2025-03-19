@@ -1,10 +1,10 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import { CodeXml as Html5, FileJson, Palette, PackageSearch, AtomIcon, GitBranch, Brush, Aperture, BookA, ChevronsLeftRightEllipsis, Worm, Fan} from 'lucide-react';
 // import { useInView } from '@/hooks/useInView';
 import { useInView } from '../hooks/useInView';
 
 
-const Skills = () => {
+const Skills = forwardRef((props, ref) => {
 
     const [skillsRef, isSkillsInView] = useInView();
 
@@ -26,8 +26,8 @@ const Skills = () => {
 
     return (
     <>
-       <section className="py-20 relative" ref={skillsRef}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+       <section className="py-20 relative" ref={ref}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={skillsRef}>
           {/* Section Title */}
           <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text">
             SKILLS
@@ -70,6 +70,6 @@ const Skills = () => {
       </section>
     </>)
     ;
-};
+});
 
 export default Skills;
