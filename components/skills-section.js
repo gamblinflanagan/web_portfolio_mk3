@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { CodeXml as Html5, Rss as Css3, FileJson, Palette, PackageSearch, Figma, AtomIcon, Boxes, GitBranch, Share2, Scissors} from 'lucide-react';
 // import { useInView } from '@/hooks/useInView';
