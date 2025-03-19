@@ -1,4 +1,4 @@
-import { forwardRef } from 'react';
+import { forwardRef, Suspense } from 'react';
 import { ExternalLink } from 'lucide-react';
 // import { useInView } from '@/hooks/useInView';
 import { useInView } from '../hooks/useInView';
@@ -131,13 +131,15 @@ const Portfolio = forwardRef((props, ref) => {
                 >
                     {/* Project Image */}
                     <div className="relative h-48 overflow-hidden">
-                    <iframe
-                        src={item.video}
-                        alt={item.image}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen={true}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                    ></iframe>
+                        <Suspense fallback={item.image}>
+                            <iframe
+                                src={item.video}
+                                alt={item.image}
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}
+                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            ></iframe>
+                        </Suspense>
                     {/* <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] to-transparent opacity-60"></div> */}
                     </div>
 
