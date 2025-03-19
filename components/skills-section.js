@@ -29,16 +29,28 @@ const Skills = forwardRef((props, ref) => {
        <section className="py-20 relative" ref={ref}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={skillsRef}>
           {/* Section Title */}
-          <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text">
-            SKILLS
-          </h2>
-          
+          <div className='grid grid-cols-1 lg:grid-cols-6 gap-4 items-center w-full'>
+            <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text sm:col-start-1 sm:col-end-3">
+                SKILLS
+            </h2>
+            
+            <a target="_blank" href="https://drive.google.com/file/d/1g59H5fVOdHSKVDsHdgYaRa_AxZvkGeTV/view?usp=sharing" className='mb-8 sm:col-start-6 sm:col-end-7'>
+                <button className="relative group">
+                    <div className="absolute -inset-0.5 bg-gradient-to-r from-[#33CCFF] to-[#FF3366] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                    <div className="relative px-7 py-4 bg-[#0B0F19] rounded-lg leading-none">
+                        <span className="bg-gradient-to-r from-[#33CCFF] to-[#FF3366] text-transparent bg-clip-text font-semibold">
+                            DownLoad My Full Resume Here
+                        </span>
+                    </div>
+                </button>
+            </a>
+          </div>
           {/* Description */}
-          <p className="text-xl text-center bg-gradient-to-r to-[#9933FF] from-[#FF3366] text-transparent bg-clip-text mb-16 text-opacity-0 hover:text-opacity-100">
+          {/* <p className="text-xl text-center bg-gradient-to-r to-[#9933FF] from-[#FF3366] text-transparent bg-clip-text mb-16 text-opacity-0 hover:text-opacity-100">
             <a target="_blank" href="https://drive.google.com/file/d/1g59H5fVOdHSKVDsHdgYaRa_AxZvkGeTV/view?usp=sharing" className="hover:text-[#33CCFF]">
                 DownLoad My Full Resume Here
             </a>
-          </p>
+          </p> */}
           {/* className="hover:text-[#33CCFF]" */}
           <p className="text-xl text-center text-gray-300 mb-16">
             General technologies I use:
