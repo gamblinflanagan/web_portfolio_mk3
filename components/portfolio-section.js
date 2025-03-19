@@ -12,7 +12,7 @@ const Portfolio = forwardRef((props, ref) => {
         {
             link: "https://skylinemanorholdings.com/#/",
             title: "Skyline Manor Holdings",
-            video: "",
+            video: "https://drive.google.com/file/d/1ZsSLsyjD9N70E3snihBeiMmxS76qkdA9/preview",
             image: "",
             description: "I was the sol developer for an airbnb business tasked with creating their company website"
         },
