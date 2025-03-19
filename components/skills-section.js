@@ -1,5 +1,5 @@
 import React from 'react';
-import { CodeXml as Html5, Rss as Css3, FileJson, Palette, PackageSearch, Figma, AtomIcon, Boxes, GitBranch, Share2, Scissors} from 'lucide-react';
+import { CodeXml as Html5, FileJson, Palette, PackageSearch, AtomIcon, GitBranch, Brush, Aperture, BookA, ChevronsLeftRightEllipsis, Worm, Fan} from 'lucide-react';
 // import { useInView } from '@/hooks/useInView';
 import { useInView } from '../hooks/useInView';
 
@@ -9,17 +9,18 @@ const Skills = () => {
     const [skillsRef, isSkillsInView] = useInView();
 
     const skills = [
-        { icon: Html5, name: 'HTML5', color: '#E34F26' },
-        { icon: Css3, name: 'CSS3', color: '#1572B6' },
-        { icon: FileJson, name: 'JavaScript', color: '#F7DF1E' },
+        { icon: Html5, name: 'HTML', color: '#E34F26' },
+        { icon: Brush, name: 'CSS/Scss/Sass', color: '#1572B6' },
+        { icon: FileJson, name: 'JavaScript/TypeSctript', color: '#F7DF1E' },
+        { icon: AtomIcon, name: 'React/Next', color: '#61DAFB' },
+        { icon: Aperture, name: 'Redux', color: '#9933FF' },
         { icon: Palette, name: 'Tailwind CSS', color: '#38B2AC' },
-        { icon: PackageSearch, name: 'npm', color: '#CB3837' },
-        { icon: Figma, name: 'Figma', color: '#F24E1E' },
-        { icon: AtomIcon, name: 'React', color: '#61DAFB' },
-        { icon: Boxes, name: 'Webpack', color: '#8DD6F9' },
-        { icon: GitBranch, name: 'Git', color: '#F05032' },
-        { icon: Share2, name: 'WordPress', color: '#21759B' },
-        { icon: Scissors, name: 'Sass', color: '#CC6699' }
+        { icon: ChevronsLeftRightEllipsis, name: 'Vue', color: '#33FF55' },
+        { icon: Fan, name: 'Pina', color: '#F7DF1E' },
+        { icon: BookA, name: 'Angular', color: '#FF3366' },
+        { icon: Worm, name: 'Python', color: '#21759B' },
+        { icon: PackageSearch, name: 'node/npm', color: '#CB3837' },
+        { icon: GitBranch, name: 'CI/CD/Git', color: '#F05032' },
       ];
     
 
@@ -34,7 +35,12 @@ const Skills = () => {
           
           {/* Description */}
           <p className="text-xl text-center text-gray-300 mb-16">
-            The skills, tools, and technologies I use:
+            <a href="#" className="text-gray-300 mb-16 hover:text-[#33CCFF]">
+                DownLoad My Full Resume Here
+            </a>
+          </p>
+          <p className="text-xl text-center text-gray-300 mb-16">
+            General technologies I use:
           </p>
 
           {/* Skills Grid */}
