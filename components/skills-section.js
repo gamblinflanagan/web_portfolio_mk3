@@ -35,7 +35,7 @@ const Skills = () => {
           
           {/* Description */}
           <p className="text-xl text-center text-gray-300 mb-16">
-            <a href="#" className="text-gray-300 mb-16 hover:text-[#33CCFF]">
+            <a target="_blank" href="https://drive.google.com/file/d/1g59H5fVOdHSKVDsHdgYaRa_AxZvkGeTV/view?usp=sharing" className="text-gray-300 mb-16 hover:text-[#33CCFF]">
                 DownLoad My Full Resume Here
             </a>
           </p>
