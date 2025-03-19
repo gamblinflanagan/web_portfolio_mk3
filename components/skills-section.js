@@ -34,11 +34,12 @@ const Skills = forwardRef((props, ref) => {
           </h2>
           
           {/* Description */}
-          <p className="text-xl text-center text-gray-300 mb-16">
-            <a target="_blank" href="https://drive.google.com/file/d/1g59H5fVOdHSKVDsHdgYaRa_AxZvkGeTV/view?usp=sharing" className="text-gray-300 mb-16 hover:text-[#33CCFF]">
+          <p className="text-xl text-center bg-gradient-to-r to-[#9933FF] from-[#FF3366] text-transparent bg-clip-text mb-16 text-opacity-0 hover:text-opacity-100">
+            <a target="_blank" href="https://drive.google.com/file/d/1g59H5fVOdHSKVDsHdgYaRa_AxZvkGeTV/view?usp=sharing" className="hover:text-[#33CCFF]">
                 DownLoad My Full Resume Here
             </a>
           </p>
+          {/* className="hover:text-[#33CCFF]" */}
           <p className="text-xl text-center text-gray-300 mb-16">
             General technologies I use:
           </p>

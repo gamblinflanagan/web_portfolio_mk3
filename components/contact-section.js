@@ -30,8 +30,8 @@ const Contact = forwardRef((props, ref) => {
       };
     
       const socialLinks = [
-        { icon: Linkedin, href: '#', label: 'LinkedIn' },
-        { icon: Github, href: '#', label: 'Github'}
+        { icon: Linkedin, href: 'https://www.linkedin.com/in/joseph-flanagan-jr-728586103/', label: 'LinkedIn' },
+        { icon: Github, href:'https://github.com/gamblinflanagan/', label: 'Github'}
       ];
     
 
@@ -89,6 +89,7 @@ const Contact = forwardRef((props, ref) => {
                   {socialLinks.map((social, index) => (
                     <a
                       key={index}
+                      target="_blank"
                       href={social.href}
                       className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-all duration-300 group"
                       aria-label={social.label}
