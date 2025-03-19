@@ -172,4 +172,6 @@ const Portfolio = forwardRef((props, ref) => {
     ;
 });
 
+Portfolio.displayName = 'Portfolio';
+
 export default Portfolio;

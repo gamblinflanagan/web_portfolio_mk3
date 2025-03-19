@@ -71,7 +71,7 @@ const Contact = forwardRef((props, ref) => {
             </h2>
             <div className="flex items-center justify-center space-x-2">
               <MessageSquare className="w-6 h-6 text-[#33CCFF]" />
-              <span className="text-2xl font-bold"> LET'S GET IN TOUCH</span>
+              <span className="text-2xl font-bold"> LET&apos;S GET IN TOUCH</span>
             </div>
           </div>
 
@@ -178,5 +178,7 @@ const Contact = forwardRef((props, ref) => {
     </>)
     ;
 });
+
+Contact.displayName = 'Contact';
 
 export default Contact;
