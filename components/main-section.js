@@ -1,6 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image'
 import Typed from 'typed.js';
 import Spline from '@splinetool/react-spline';
+
+import aiProfile from '../assets/aiProfile.jpg';
 
 
 const Main = () => {
@@ -40,9 +43,9 @@ const Main = () => {
                 <div className="relative w-[280px] h-[280px] mx-auto">
                   <div className="absolute inset-0 bg-gradient-to-tr from-[#FF3366]/20 via-[#9933FF]/20 to-[#33CCFF]/20 rounded-full blur-xl"></div>
                   <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/10">
-                    <img
-                      src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop"
-                      alt="Developer Portrait"
+                    <Image
+                      src={aiProfile}
+                      alt=""
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -54,7 +57,7 @@ const Main = () => {
                   <span ref={typedRef} className="bg-gradient-to-r from-[#FF3366] to-[#9933FF] text-transparent bg-clip-text"></span>
                 </h1>
                 <p className="text-xl mb-8 text-gray-300">
-                  I am John – <span className="text-[#33CCFF]">web developer</span> with a passion for creating beautiful and responsive websites.
+                  I am John Shephard – <span className="text-[#33CCFF]">web developer</span> with a passion for creating beautiful and responsive websites.
                 </p>
                 <div className="flex justify-center lg:justify-start">
                   <button className="relative group">
@@ -74,11 +77,11 @@ const Main = () => {
               <div className="relative w-[400px] h-[400px] mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#FF3366]/20 via-[#9933FF]/20 to-[#33CCFF]/20 rounded-full blur-xl"></div>
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/10">
-                  <img
-                    src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop"
-                    alt="Developer Portrait"
-                    className="w-full h-full object-cover"
-                  />
+                    <Image
+                      src={aiProfile}
+                      alt=""
+                      className="w-full h-full object-cover"
+                    />
                 </div>
               </div>
             </div>
