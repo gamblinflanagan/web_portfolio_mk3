@@ -1,8 +1,11 @@
 import { useState, forwardRef } from 'react';
 import {  MessageSquare, Mail, Phone, Linkedin, Github, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 
 const Contact = forwardRef((props, ref) => {
+
+    const [ result, showresult ] = useState(false);
 
     const [formData, setFormData] = useState({
         name: '',
@@ -13,6 +16,23 @@ const Contact = forwardRef((props, ref) => {
       const handleSubmit = (e) => {
         e.preventDefault();
         // Handle form submission
+        emailjs
+        .sendForm(
+            'service_j43rzsm', 
+            'template_i6sd5no', 
+            e.target, 
+            'YWtW9YxRMGr2rPw-1'
+        )
+        .then((result) => {
+            console.log(result.text);
+            }, 
+            (error) => {
+                console.log(error.text);
+            }
+        );
+        e.target.reset();
+        showresult(true);
+
         console.log('Form submitted:', formData);
         setFormData({
             name: '',
