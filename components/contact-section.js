@@ -33,7 +33,7 @@ const Contact = forwardRef((props, ref) => {
         e.target.reset();
         showresult(true);
 
-        console.log('Form submitted:', formData);
+        //console.log('Form submitted:', formData);
         setFormData({
             name: '',
             email: '',

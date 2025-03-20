@@ -51,7 +51,7 @@ export default function Home() {
   const contactRef = useRef(null);
 
   const handleClick = (element) => {
-    console.log("ICLICKED", element);
+    //console.log("ICLICKED", element);
     if (element === 'skills') {
       skillsRef.current?.scrollIntoView({behavior: 'smooth'});
     }

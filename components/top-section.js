@@ -3,10 +3,16 @@ import Image from 'next/image'
 import Typed from 'typed.js';
 import Spline from '@splinetool/react-spline';
 
-import aiProfile from '../assets/aiProfile.jpg';
+import aiProfile from '@/public/aiProfile.jpg';
 
 
 const Top = (props) => {
+
+    // const imageLoader = ({ src, width, quality}) => {
+    //   return `'${src}?w=${width}`
+    // }
+
+    //https://drive.google.com/file/d/1u3-_TVWjEtg53eTJLAmMnyZUB0xUV-V4/preview" 
 
     const typedRef = useRef(null);
 
