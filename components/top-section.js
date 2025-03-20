@@ -52,6 +52,7 @@ const Top = (props) => {
                     <Image
                       src={aiProfile}
                       alt=""
+                      unoptimized
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -86,6 +87,7 @@ const Top = (props) => {
                     <Image
                       src={aiProfile}
                       alt=""
+                      unoptimized
                       className="w-full h-full object-cover"
                     />
                 </div>
