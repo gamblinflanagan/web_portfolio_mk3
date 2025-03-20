@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-// import Image from 'next/image'
+import Image from 'next/image'
 import Typed from 'typed.js';
 import Spline from '@splinetool/react-spline';
 
@@ -7,6 +7,8 @@ import aiProfile from '@/public/aiProfile.jpg';
 
 
 const Top = (props) => {
+
+    const url = 'https://drive.google.com/file/d/1u3-_TVWjEtg53eTJLAmMnyZUB0xUV-V4/preview';
 
     // const imageLoader = ({ src, width, quality}) => {
     //   return `'${src}?w=${width}`
@@ -49,9 +51,13 @@ const Top = (props) => {
                 <div className="relative w-[280px] h-[280px] mx-auto">
                   <div className="absolute inset-0 bg-gradient-to-tr from-[#FF3366]/20 via-[#9933FF]/20 to-[#33CCFF]/20 rounded-full blur-xl"></div>
                   <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/10">
-                    <iframe
-                      src="https://drive.google.com/file/d/1u3-_TVWjEtg53eTJLAmMnyZUB0xUV-V4/preview"
+                    <Image
+                      src={aiProfile}
                       alt=""
+                      width={640}
+                      height={480}
+                      unoptimized
+                      layout='resonsive'
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -83,9 +89,13 @@ const Top = (props) => {
               <div className="relative w-[400px] h-[400px] mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#FF3366]/20 via-[#9933FF]/20 to-[#33CCFF]/20 rounded-full blur-xl"></div>
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/10">
-                    <iframe
-                      src="https://drive.google.com/file/d/1u3-_TVWjEtg53eTJLAmMnyZUB0xUV-V4/preview"
+                    <Image
+                      src={aiProfile}
                       alt=""
+                      width={640}
+                      height={480}
+                      unoptimized
+                      layout='resonsive'
                       className="w-full h-full object-cover"
                     />
                 </div>
