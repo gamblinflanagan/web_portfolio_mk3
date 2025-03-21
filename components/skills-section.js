@@ -11,7 +11,7 @@ const Skills = forwardRef((props, ref) => {
     const skills = [
         { icon: Html5, name: 'HTML', color: '#E34F26' },
         { icon: Brush, name: 'CSS/Scss/Sass', color: '#1572B6' },
-        { icon: FileJson, name: 'JavaScript/TypeSctript', color: '#F7DF1E' },
+        { icon: FileJson, name: 'JavaScript/TypeScript', color: '#F7DF1E' },
         { icon: AtomIcon, name: 'React/Next', color: '#61DAFB' },
         { icon: Aperture, name: 'Redux', color: '#9933FF' },
         { icon: Palette, name: 'Tailwind CSS', color: '#38B2AC' },
