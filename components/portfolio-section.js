@@ -28,7 +28,7 @@ const Portfolio = forwardRef((props, ref) => {
             title: "NJ Homeless Donation site",
             video: "https://drive.google.com/file/d/1N2QM1RhYVii9auXoulnrPKG_svBGnlgC/preview",
             image: "",
-            description: "Donation site for Livingston Philanthropies inc",
+            description: "Donation site that I created for Livingston Philanthropies inc",
         },
         {
             link: "https://cs490-project2m2-jcf29.herokuapp.com",
@@ -38,12 +38,19 @@ const Portfolio = forwardRef((props, ref) => {
             description: "Flask/React Web chat app I designed and built my senior year of college",
         },
         {
-            link: "https://github.com/gamblinflanagan/2x2_RubixCube",
-            title: "Rubix Cube",
-            video: "https://drive.google.com/file/d/1VlDmPaFXVzdEKNx23ZKgSzB0ndVBpAZr/preview",
+            link: "https://github.com/gamblinflanagan/angular-react-app",
+            title: "Angular React App template",
+            video: "https://drive.google.com/file/d/1wOKY-LRrWboREnhY6RBZPKxNz42KfFvi/preview",
             image: "",
-            description: "A C app of the classic 2x2 rubix cube",
+            description: "I created a template to build Angular webapps with React running inside for added performance but with all features of a js framework",
         },
+        // {
+        //     link: "https://github.com/gamblinflanagan/2x2_RubixCube",
+        //     title: "Rubix Cube",
+        //     video: "https://drive.google.com/file/d/1VlDmPaFXVzdEKNx23ZKgSzB0ndVBpAZr/preview",
+        //     image: "",
+        //     description: "A C app of the classic 2x2 rubix cube",
+        // },
         {
             link: "https://github.com/gamblinflanagan/RPSLS",
             title: "Rock Paper Scissors Lizard Spock",
@@ -51,13 +58,13 @@ const Portfolio = forwardRef((props, ref) => {
             image: "",
             description: "Python app of the classic big bang theory game rock paper scissors lizard spock",
         },
-        {
-            link: "https://github.com/gamblinflanagan/roulette",
-            title: "Roulette",
-            video: "https://drive.google.com/file/d/1ZRguw79R0KfyLptxZ5Bh28zRWjns9CXu/preview",
-            image: "",
-            description: "Java app of classic casino game roulette",
-        },
+        // {
+        //     link: "https://github.com/gamblinflanagan/roulette",
+        //     title: "Roulette",
+        //     video: "https://drive.google.com/file/d/1ZRguw79R0KfyLptxZ5Bh28zRWjns9CXu/preview",
+        //     image: "",
+        //     description: "Java app of classic casino game roulette",
+        // },
         {
             link: "https://github.com/gamblinflanagan/RPA_tic_tac_toe",
             title: "RPA TIC TAC TOE",
@@ -65,20 +72,20 @@ const Portfolio = forwardRef((props, ref) => {
             image: "",
             description: "The RPA bot will open the tic tac toe website and play the AI usng the minimax algorithm to decide its move Works on all Windows platforms with Workfusion installed.",
         },
-        {
-            link: "https://github.com/gamblinflanagan/Dice",
-            title: "Dice",
-            video: "https://drive.google.com/file/d/1CERSgkH7lbxKG7_kC4paKWyCpSVNNjb_/preview",
-            image: "",
-            description: "IOS app that rolls two 6 sided dice",
-        },
-        {
-            link: "https://github.com/gamblinflanagan/Magic-8-Ball",
-            title: "Magic 8 Ball",
-            video: "https://drive.google.com/file/d/1IO73CvwRjJYf9km5O-8TR44AmXqzDVuo/preview",
-            image: "",
-            description: "Swift IOS app of magic 8 ball toy, it knows the answer to any yes or no question",
-        },
+        // {
+        //     link: "https://github.com/gamblinflanagan/Dice",
+        //     title: "Dice",
+        //     video: "https://drive.google.com/file/d/1CERSgkH7lbxKG7_kC4paKWyCpSVNNjb_/preview",
+        //     image: "",
+        //     description: "IOS app that rolls two 6 sided dice",
+        // },
+        // {
+        //     link: "https://github.com/gamblinflanagan/Magic-8-Ball",
+        //     title: "Magic 8 Ball",
+        //     video: "https://drive.google.com/file/d/1IO73CvwRjJYf9km5O-8TR44AmXqzDVuo/preview",
+        //     image: "",
+        //     description: "Swift IOS app of magic 8 ball toy, it knows the answer to any yes or no question",
+        // },
         {
             link: "https://github.com/gamblinflanagan/binary-dec-hex",
             title: "Binary, Decimal, Hexidecimal Converter",
@@ -93,13 +100,13 @@ const Portfolio = forwardRef((props, ref) => {
             image: "",
             description: "Flask app that displays random recipe from API and displays tweets about it",
         },
-        {
-            link: "https://github.com/gamblinflanagan/pigdice",
-            title: "Pig Dice Game",
-            video: "https://drive.google.com/file/d/1s_DwXOuI_wq0PI_Tu8kWrlWToNoaatRN/preview",
-            image: "",
-            description: "Python app of classic Pig Dice game",
-        },
+        // {
+        //     link: "https://github.com/gamblinflanagan/pigdice",
+        //     title: "Pig Dice Game",
+        //     video: "https://drive.google.com/file/d/1s_DwXOuI_wq0PI_Tu8kWrlWToNoaatRN/preview",
+        //     image: "",
+        //     description: "Python app of classic Pig Dice game",
+        // },
       ];
 
    
