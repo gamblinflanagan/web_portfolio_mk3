@@ -14,7 +14,7 @@ const Skills = forwardRef((props, ref) => {
         { icon: FileJson, name: 'JavaScript/TypeScript', color: '#F7DF1E' },
         { icon: AtomIcon, name: 'React/Next', color: '#61DAFB' },
         { icon: Aperture, name: 'Redux', color: '#9933FF' },
-        { icon: Palette, name: 'Tailwind CSS', color: '#38B2AC' },
+        { icon: Palette, name: 'BootStrap, Tailwind', color: '#38B2AC' },
         { icon: ChevronsLeftRightEllipsis, name: 'Vue', color: '#33FF55' },
         { icon: Fan, name: 'Pina', color: '#F7DF1E' },
         { icon: BookA, name: 'Angular', color: '#FF3366' },
