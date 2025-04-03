@@ -40,7 +40,7 @@ const Portfolio = forwardRef((props, ref) => {
         {
             link: "https://github.com/gamblinflanagan/angular-react-app",
             title: "Angular React App template",
-            video: "https://drive.google.com/file/d/1wOKY-LRrWboREnhY6RBZPKxNz42KfFvi/preview",
+            video: "https://drive.google.com/file/d/1vWvnlEQTmqE-j1v95DadX7Zx9tB7efOZ/preview",
             image: "",
             description: "I created a template to build Angular webapps with React running inside for added performance but with all features of a js framework",
         },
@@ -68,7 +68,7 @@ const Portfolio = forwardRef((props, ref) => {
         {
             link: "https://github.com/gamblinflanagan/RPA_tic_tac_toe",
             title: "RPA TIC TAC TOE",
-            video: "https://drive.google.com/file/d/1wOKY-LRrWboREnhY6RBZPKxNz42KfFvi/preview",
+            video: "https://drive.google.com/file/d/12xgW4uvjDt_OftYEFk8c3DpxMRuClTV_/preview",
             image: "",
             description: "The RPA bot will open the tic tac toe website and play the AI usng the minimax algorithm to decide its move Works on all Windows platforms with Workfusion installed.",
         },
