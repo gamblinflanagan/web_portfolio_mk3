@@ -8,12 +8,15 @@ export function useInView(options = {}) {
     const element = ref.current;
     if (!element) return;
 
-    const observer = new IntersectionObserver(([entry]) => {
-      setIsInView(entry.isIntersecting);
-    }, {
-      threshold: 0.27,
-      ...options
-    });
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        threshold: 0.27,
+        ...options,
+      }
+    );
 
     observer.observe(element);
 
